@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="wynik.php" method="get">
+    <form action="wynik.php" method="post">
         <label for="imie">Imię:</label>
         <input type="text" id="imie" name="imie" required><br>
         <label for="nazwisko">Nazwisko:</label>
@@ -13,7 +13,8 @@
         <label for="semestr">Semestr:</label>
         <input type="number" id="semestr" name="semestr" max="7" min="1" required><br>
         <label for="zaliczone">Zaliczenie semestru:</label>
-        <input type="checkbox" name="Zaliczone" value="yes"><br>
+        <input type="checkbox" name="zaliczone" value="yes"><br>
+        <input type="submit"/>
     </form>
   </body>
 </html>
